@@ -1,0 +1,32 @@
+#Print “Hello World!” to the terminal
+#Create a variable with a number and print the variable to the screen
+#Get the user to input a float number and convert to an integer
+#Create if else statement to see if user likes dogs
+#Create while loop to go as long as user input is not 
+
+
+
+#print("Hello World!")
+
+x=8
+print(x)
+
+
+x= input("enter")
+#print (float(x))
+
+
+
+# dog = input(" do you like\n")
+# if dog == "yes":
+# print("Yes i like dogs")
+# else:
+# print("No i dont like dogs")
+
+
+x = int(input("Enter a number"))
+while x != 8:
+    x = int(input("Your Number is too low"))
+
+else:
+    print("JACKPOT")
