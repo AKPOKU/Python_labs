@@ -1,0 +1,35 @@
+#Define the function named say_hello
+#DEFINE FUNCTION say_hello
+    #PRINT "Hello, world!
+
+#Greeting = "Hello, world!"
+#print (Greeting)
+
+
+#Define the function named add_two_numbers
+#DEFINE FUNCTION add_two_numbers(a, b)
+    #RETURN a + b
+#def add_two_numbers(a , b):
+#    return (a+b)
+    
+#Main part of the script
+#CALL say_hello
+#result = add_two_numbers(2, 3)
+#PRINT "The sum of 2 and 3 is" + result
+#print (result)
+
+
+
+#anwser
+## Define a function named say_hello
+def say_hello():
+    print("Hello, world!")  # Print a simple greeting message
+# Define a function named add_two_numbers
+def add_two_numbers(a, b):
+    return a + b  # Return the sum of the two numbers
+# Call the say_hello function
+say_hello()
+# Call the add_two_numbers function with 2 and 3
+result = add_two_numbers(2, 3)
+# Print the result of the add_two_numbers function
+print("The sum of 2 and 3 is", result)    

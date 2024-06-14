@@ -1,0 +1,2 @@
+#The game will prompt the user to guess a number between 1 and 10, providing feedback on whether the guess is too high, too low, or correct.Use random. "import random"
+import random
