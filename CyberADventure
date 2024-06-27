@@ -1,0 +1,52 @@
+def start_game():
+    print("Welcome to the Cyber Security Adventure!")
+    print("You're a security expert tasked with protecting a company's network.")
+    first_choice()
+
+def first_choice():
+    print("\nYou detect an unusual activity. Do you want to investigate the network or check the server logs?")
+    choice = input("Enter 'network' or 'logs': ").lower()
+    if choice == 'network':
+        network_path()
+    elif choice == 'logs':
+        logs_path()
+    else:
+        print("Invalid choice. Please enter 'network' or 'logs'.")
+        first_choice()
+
+def network_path():
+    print("\nYou investigate the network and discover an ongoing DDoS attack!")
+    print("Do you want to activate the firewall or call for backup?")
+    choice = input("Enter 'firewall' or 'backup': ").lower()
+    if choice == 'firewall':
+        print("\nYou successfully mitigate the DDoS attack! The network is safe. You win!")
+    elif choice == 'backup':
+        print("\nWhile waiting for backup, the attack overwhelms the system. Game over.")
+        play_again()
+    else:
+        print("Invalid choice. Please enter 'firewall' or 'backup'.")
+        network_path()
+
+def logs_path():
+    print("\nYou check the server logs and find evidence of a potential data breach.")
+    print("Do you want to initiate a system lockdown or try to trace the attacker?")
+    choice = input("Enter 'lockdown' or 'trace': ").lower()
+    if choice == 'lockdown':
+        print("\nLockdown successful! You prevented further data loss. You win!")
+    elif choice == 'trace':
+        print("\nWhile tracing the attacker, they manage to exfiltrate sensitive data. Game over.")
+        play_again()
+    else:
+        print("Invalid choice. Please enter 'lockdown' or 'trace'.")
+        logs_path()
+
+def play_again():
+    choice = input("Do you want to play again? (yes/no): ").lower()
+    if choice == 'yes':
+        start_game()
+    elif choice == 'no':
+        print("Thanks for playing! Stay cyber-safe!")
+    else:
+        print("Invalid choice. Please enter 'yes' or 'no'.")
+        play_again()
+start_game()
