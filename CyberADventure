@@ -1,6 +1,6 @@
 def start_game():
     print("Welcome to the Cyber Security Adventure!")
-    print("You're a security expert tasked with protecting a company's network.")
+    print("You're a security expert tasked with protecting SAVVY's network.")
     first_choice()
 
 def first_choice():
