@@ -1,0 +1,160 @@
+{
+    "questions": {
+      "1.0 General Security Concepts": [
+        {
+          "type": "multiple_choice",
+          "question": "Which of the following is NOT a type of security control?",
+          "options": ["Preventive", "Detective", "Corrective", "Destructive"],
+          "answer": "Destructive",
+          "objective": "1.1 Compare and contrast various types of security controls"
+        },
+        {
+          "type": "true_false",
+          "question": "Data masking involves altering data to protect sensitive information.",
+          "answer": true,
+          "objective": "1.3 Explain the importance of data protection and privacy"
+        },
+        {
+          "type": "true_false",
+          "question": "Non-repudiation ensures that a user cannot deny having performed an action.",
+          "answer": true,
+          "objective": "1.2 Summarize fundamental security concepts"
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which term refers to a method of ensuring data integrity by generating a unique value for data?",
+          "options": ["Hashing", "Encryption", "Tokenization", "Steganography"],
+          "answer": "Hashing",
+          "objective": "1.1 Compare and contrast various types of security controls"
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which of the following is NOT a typical use of steganography?",
+          "options": ["Hiding messages in images", "Watermarking documents", "Encrypting network traffic", "Concealing data in audio files"],
+          "answer": "Encrypting network traffic",
+          "objective": "1.4 Explain the importance of using appropriate cryptographic solutions"
+        },
+        {
+          "type": "true_false",
+          "question": "Full-disk encryption protects data when the device is powered off but not when it's running.",
+          "answer": true,
+          "objective": "1.4 Explain the importance of using appropriate cryptographic solutions"
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which of the following is an example of a preventive control?",
+          "options": ["Firewalls", "Intrusion Detection Systems", "Security Incident Response", "Audit Logs"],
+          "answer": "Firewalls",
+          "objective": "1.1 Compare and contrast various types of security controls"
+        }
+      ],
+      "2.0 Threats, Vulnerabilities, and Mitigations": [
+        {
+          "type": "multiple_choice",
+          "question": "Which threat actor is most likely to be motivated by financial gain?",
+          "options": ["Hacktivist", "Script kiddie", "Organized crime", "Nation-state"],
+          "answer": "Organized crime",
+          "objective": "2.1 Compare and contrast common threat actors and motivations"
+        },
+        {
+          "type": "true_false",
+          "question": "Phishing attacks are always delivered via email.",
+          "answer": false,
+          "objective": "2.2 Explain common threat vectors and attack surfaces"
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What type of malware is designed to disrupt the normal functioning of a system or network?",
+          "options": ["Virus", "Worm", "Ransomware", "Adware"],
+          "answer": "Ransomware",
+          "objective": "2.1 Compare and contrast common threat actors and motivations"
+        },
+        {
+          "type": "true_false",
+          "question": "A denial-of-service attack aims to make a system or network resource unavailable to its intended users.",
+          "answer": true,
+          "objective": "2.2 Explain common threat vectors and attack surfaces"
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which of the following is NOT a common indicator of malicious activity?",
+          "options": ["Unusual outbound network traffic", "Multiple failed login attempts", "Unexpected patching of systems", "Geographical irregularities in access patterns"],
+          "answer": "Unexpected patching of systems",
+          "objective": "2.4 Given a scenario, analyze indicators of malicious activity"
+        },
+        {
+          "type": "true_false",
+          "question": "Implementing the principle of least privilege is an effective mitigation technique against privilege escalation attacks.",
+          "answer": true,
+          "objective": "2.5 Explain the purpose of mitigation techniques used to secure the enterprise"
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which technique is used to gather information about a target system or network before launching an attack?",
+          "options": ["Reconnaissance", "Exploitation", "Scanning", "Social Engineering"],
+          "answer": "Reconnaissance",
+          "objective": "2.3 Explain various types of vulnerabilities"
+        },
+        {
+          "type": "true_false",
+          "question": "Ransomware is designed to steal sensitive data from a victim without their knowledge.",
+          "answer": false,
+          "objective": "2.1 Compare and contrast common threat actors and motivations"
+        }
+      ],
+      "3.0 Security Architecture": [
+        {
+          "type": "multiple_choice",
+          "question": "In a cloud shared responsibility model, which of the following is typically the responsibility of the cloud service provider?",
+          "options": ["Data classification", "Network firewalls", "Physical security of data centers", "End-user access management"],
+          "answer": "Physical security of data centers",
+          "objective": "3.1 Compare and contrast security implications of different architecture models"
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What is the main purpose of network segmentation?",
+          "options": ["To improve network performance", "To isolate sensitive systems and data", "To increase network speed", "To simplify network management"],
+          "answer": "To isolate sensitive systems and data",
+          "objective": "3.2 Given a scenario, apply security principles to secure enterprise infrastructure"
+        },
+        {
+          "type": "true_false",
+          "question": "Virtual Private Network (VPN) provides encryption for data in transit between the client and the VPN server.",
+          "answer": true,
+          "objective": "3.3 Apply secure design principles to various technologies"
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which component is commonly used in a DMZ to protect internal resources from external threats?",
+          "options": ["Web Application Firewall (WAF)", "Intrusion Prevention System (IPS)", "Network Intrusion Detection System (NIDS)", "Router"],
+          "answer": "Web Application Firewall (WAF)",
+          "objective": "3.1 Compare and contrast security implications of different architecture models"
+        },
+        {
+          "type": "true_false",
+          "question": "Software-defined networking (SDN) always improves network security.",
+          "answer": false,
+          "objective": "3.2 Given a scenario, apply security principles to secure enterprise infrastructure"
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which of the following is NOT a common method to secure data at rest?",
+          "options": ["Full-disk encryption", "File-level encryption", "Database encryption", "Transport Layer Security (TLS)"],
+          "answer": "Transport Layer Security (TLS)",
+          "objective": "3.3 Compare and contrast concepts and strategies to protect data"
+        },
+        {
+          "type": "true_false",
+          "question": "Hot sites provide the fastest recovery time in a disaster recovery scenario but are typically the most expensive option.",
+          "answer": true,
+          "objective": "3.4 Explain the importance of resilience and recovery in security architecture"
+        },
+        {
+          "type": "true_false",
+          "question": "Data loss prevention (DLP) solutions are primarily designed to monitor and control the flow of sensitive data within an organization.",
+          "answer": true,
+          "objective": "3.2 Given a scenario, apply security principles to secure enterprise infrastructure"
+        }
+      ]
+    }
+  }
